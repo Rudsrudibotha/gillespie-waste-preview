@@ -1,0 +1,168 @@
+/* Gillespie Waste Service — shared styles */
+:root {
+  --ink: #15221c;
+  --muted: #5c6b63;
+  --paper: #f6f4ef;
+  --card: #ffffff;
+  --line: #d9e0db;
+  --green: #1f6b4a;
+  --green-dark: #164d36;
+  --accent: #c45c26;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.55;
+}
+h1, h2, h3, .brand {
+  font-family: Georgia, "Times New Roman", serif;
+}
+a { color: var(--green); }
+.wrap { width: min(1080px, calc(100% - 2rem)); margin: 0 auto; }
+header {
+  background: var(--ink);
+  color: #f4f7f5;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.9rem 0;
+}
+.brand { font-weight: 700; letter-spacing: 0.02em; text-decoration: none; color: inherit; font-size: 1.05rem; }
+.brand span { color: #8fddb5; }
+nav { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
+nav a { color: #d7e6de; text-decoration: none; font-size: 0.95rem; }
+nav a[aria-current="page"] { color: #fff; font-weight: 700; }
+.btn {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff !important;
+  text-decoration: none;
+  padding: 0.7rem 1.1rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  border: none;
+}
+.btn.secondary { background: var(--green); }
+.btn.ghost {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.45);
+  color: #fff !important;
+}
+.btn:hover { filter: brightness(1.05); }
+.hero {
+  padding: 3.25rem 0 2.5rem;
+  background:
+    linear-gradient(120deg, rgba(21,34,28,0.94), rgba(31,107,74,0.8)),
+    radial-gradient(circle at 20% 20%, #2f8a61, #15221c 55%);
+  color: #f4f7f5;
+}
+.hero h1 {
+  font-size: clamp(2rem, 4vw, 3.1rem);
+  line-height: 1.15;
+  margin: 0 0 1rem;
+  max-width: 16ch;
+}
+.hero p { max-width: 38rem; font-size: 1.12rem; color: #d9ebe1; margin: 0; }
+.cta-row { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.5rem; }
+.trust {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 2rem 0 0;
+}
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 1.25rem;
+  box-shadow: 0 8px 24px rgba(21,34,28,0.04);
+}
+.card h3 { margin: 0 0 0.4rem; font-size: 1.15rem; }
+.card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+section { padding: 3rem 0; }
+section h2 { margin: 0 0 0.75rem; font-size: clamp(1.6rem, 3vw, 2.2rem); }
+.lead { color: var(--muted); max-width: 42rem; margin: 0; }
+.two {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+.list { margin: 1rem 0 0; padding-left: 1.1rem; color: var(--muted); }
+.list li { margin: 0.4rem 0; }
+.panel {
+  background: #eef6f1;
+  border: 1px solid #cfe0d6;
+  border-radius: 18px;
+  padding: 1.4rem;
+}
+.panel h3 { margin-top: 0; }
+.panel a { font-weight: 700; text-decoration: none; }
+.note { color: var(--muted); font-size: 0.95rem; }
+.steps { counter-reset: step; list-style: none; padding: 0; margin: 1.25rem 0 0; }
+.steps li {
+  counter-increment: step;
+  position: relative;
+  padding: 0.85rem 0 0.85rem 3rem;
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+}
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0.75rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: var(--green);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.contact-lines p { margin: 0.45rem 0; color: var(--muted); }
+.contact-lines strong { color: var(--ink); }
+footer {
+  border-top: 1px solid var(--line);
+  padding: 1.5rem 0 5rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.footer-disclaimer { margin-top: 0.75rem; max-width: 46rem; }
+.sticky-call {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  display: none;
+  gap: 0.5rem;
+  padding: 0.65rem 0.85rem;
+  background: rgba(21,34,28,0.96);
+  z-index: 20;
+}
+.sticky-call a {
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background: var(--accent);
+  padding: 0.75rem;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.sticky-call a.secondary { background: var(--green); }
+@media (max-width: 800px) {
+  .trust, .two { grid-template-columns: 1fr; }
+  .nav { flex-direction: column; align-items: flex-start; }
+  .sticky-call { display: flex; }
+}

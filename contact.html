@@ -4,88 +4,160 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Contact | Gillespie Waste Service</title>
-  <meta name="description" content="Call or text (830) 456-5401 · Gillespiewaste@gmail.com · Fredericksburg / Gillespie County, TX." />
-  <meta property="og:title" content="Gillespie Waste Service | Gillespie County, TX" />
-  <meta property="og:description" content="Call or text (830) 456-5401 · Gillespiewaste@gmail.com · Fredericksburg / Gillespie County, TX." />
-  <meta property="og:image" content="images/hero.jpg" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23f0a202'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='26' font-family='Arial' font-weight='700' fill='%2307110d'%3EG%3C/text%3E%3C/svg%3E" />
+  <meta name="description" content="Contact Gillespie Waste Service — call (830) 456-5401 or email Gillespiewaste@gmail.com. Owner Kyle Koch. Fredericksburg & Gillespie County, TX." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <div class="topbar">
-    <div class="wrap">
-      <span>Weekly garbage pickup · Most of Gillespie County, TX</span>
-      <a href="tel:+18304565401">Call or text (830) 456-5401</a>
-    </div>
-  </div>
-  <header>
-    <div class="wrap nav">
+  <header class="site-header">
+    <div class="wrap nav-bar">
       <a class="brand" href="index.html">
-        <span class="brand-badge" aria-hidden="true">GW</span>
-        <span>
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18h16v2H4zm1.5-3.5 1.8-7.2A2 2 0 0 1 9.25 6h5.5a2 2 0 0 1 1.95 1.3L18.5 14.5H5.5zM7 16.5a1.5 1.5 0 1 0 .001 3.999A1.5 1.5 0 0 0 7 16.5zm10 0a1.5 1.5 0 1 0 .001 3.999A1.5 1.5 0 0 0 17 16.5z"/></svg>
+        </span>
+        <span class="brand-text">
           <strong>Gillespie Waste Service</strong>
-          <small>Fredericksburg · Gillespie County</small>
+          <span>Fredericksburg &amp; Gillespie County</span>
         </span>
       </a>
-      <nav>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 7h16v2H4zm0 4h16v2H4zm0 4h16v2H4z"/></svg>
+      </button>
+      <nav class="nav-links" id="site-nav">
         <a href="index.html">Home</a>
         <a href="services.html">Services</a>
         <a href="contact.html" aria-current="page">Contact</a>
-        <a class="btn btn-amber" href="tel:+18304565401">Call / Text (830) 456-5401</a>
+        <a class="btn btn-call" href="tel:+18304565401">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.2 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z"/></svg>
+          Call (830) 456-5401
+        </a>
       </nav>
     </div>
   </header>
+
   <main>
-    <section>
+    <section class="page-hero">
       <div class="wrap">
-        <div class="eyebrow">Contact</div>
-        <h2 style="margin-top:1rem;">Let’s confirm your address</h2>
-        <p class="lead">Call or text anytime with questions. Email and Facebook work too.</p>
-        <div class="contact-grid">
-          <div class="contact-card">
-            <p class="phone-xl"><a href="tel:+18304565401">(830) 456-5401</a></p>
-            <p><strong>Call or text</strong> — primary way to start weekly pickup</p>
-            <p><strong>Email:</strong> <a href="mailto:Gillespiewaste@gmail.com">Gillespiewaste@gmail.com</a></p>
-            <p><strong>Facebook:</strong> <a href="https://www.facebook.com/Gillespiewaste/" target="_blank" rel="noopener">facebook.com/Gillespiewaste</a></p>
-            <p><strong>Owner:</strong> Kyle Koch</p>
-            <p><strong>Area:</strong> Fredericksburg / Gillespie County, TX</p>
-            <p style="margin-top:1rem;">Hours aren’t published here — please call or text to confirm the best time to reach us.</p>
-            <div class="cta-row" style="margin-top:1.3rem;">
-              <a class="btn btn-amber" href="tel:+18304565401">Call / Text now</a>
-              <a class="btn btn-green" href="mailto:Gillespiewaste@gmail.com?subject=Service%20inquiry">Send an email</a>
+        <h1>Contact</h1>
+        <p>Prefer a quick call or a short email — whichever is easier. We’re happy to help with new service and route questions.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap contact-grid">
+        <div class="contact-card">
+          <h2>How to reach us</h2>
+          <dl>
+            <div class="contact-row">
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0 2c-4 0-8 2-8 4v2h16v-2c0-2-4-4-8-4z"/></svg>
+              </div>
+              <div>
+                <dt>Owner</dt>
+                <dd>Kyle Koch</dd>
+              </div>
             </div>
+            <div class="contact-row">
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.2 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z"/></svg>
+              </div>
+              <div>
+                <dt>Phone</dt>
+                <dd><a href="tel:+18304565401">(830) 456-5401</a></dd>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5L4 8V6l8 5 8-5v2z"/></svg>
+              </div>
+              <div>
+                <dt>Email</dt>
+                <dd><a href="mailto:Gillespiewaste@gmail.com">Gillespiewaste@gmail.com</a></dd>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/></svg>
+              </div>
+              <div>
+                <dt>Service area</dt>
+                <dd>Fredericksburg &amp; Gillespie County, TX</dd>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M22 12c0-5.5-4.5-10-10-10S2 6.5 2 12c0 5 3.7 9.1 8.5 9.9v-7H8.1V12h2.4V9.8c0-2.4 1.4-3.7 3.6-3.7 1 0 2.1.2 2.1.2v2.3h-1.2c-1.2 0-1.5.7-1.5 1.5V12h2.6l-.4 2.9h-2.2v7C18.3 21.1 22 17 22 12z"/></svg>
+              </div>
+              <div>
+                <dt>Facebook</dt>
+                <dd><a href="https://www.facebook.com/Gillespiewaste" target="_blank" rel="noopener noreferrer">facebook.com/Gillespiewaste</a></dd>
+              </div>
+            </div>
+          </dl>
+        </div>
+
+        <div>
+          <div class="cta-panel">
+            <h3>Request service</h3>
+            <p>
+              Tell us your location and whether you need residential or commercial pickup.
+              A call or short email is the fastest way to get started.
+            </p>
+            <div class="cta-row" style="margin-bottom:1.25rem">
+              <a class="btn btn-call" href="tel:+18304565401">Call now</a>
+              <a class="btn btn-ghost" href="mailto:Gillespiewaste@gmail.com?subject=Service%20inquiry">Email us</a>
+            </div>
+            <p class="muted" style="margin:0;font-size:0.9rem">
+              Owner: Kyle Koch · Weekly residential &amp; commercial garbage pickup
+            </p>
           </div>
-          <div class="dark-panel">
-            <h3>How to get started</h3>
-            <ol class="steps">
-              <li><div><strong style="color:#fff">Reach out</strong><div>Call or text (830) 456-5401</div></div></li>
-              <li><div><strong style="color:#fff">Confirm your address</strong><div>We’ll check whether you’re on a weekly route</div></div></li>
-              <li><div><strong style="color:#fff">Set up service</strong><div>Schedule and container details with the team</div></div></li>
-            </ol>
+          <div class="split-media" style="margin-top:1.25rem;aspect-ratio:16/10">
+            <img src="images/hero.jpg" alt="Local neighborhood served by Gillespie Waste Service" width="1200" height="750" loading="lazy" />
           </div>
         </div>
       </div>
     </section>
-    <section class="band" style="padding-top:0;">
-      <div class="wrap" style="padding-top:2rem;">
-        <img src="images/neighborhood.jpg" alt="Local residential area" width="1400" height="700" style="width:100%;height:280px;object-fit:cover;border-radius:28px;" />
-      </div>
-    </section>
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <div class="wrap">
-      <p><strong style="color:#fff">Gillespie Waste Service</strong><br>
-      Fredericksburg / Gillespie County, TX ·
-      <a href="tel:+18304565401">(830) 456-5401</a> ·
-      <a href="mailto:Gillespiewaste@gmail.com">Gillespiewaste@gmail.com</a> ·
-      <a href="https://www.facebook.com/Gillespiewaste/" target="_blank" rel="noopener">Facebook</a></p>
-      <p class="footer-disclaimer">Heads up — this is an unofficial design preview by Dev Forge ZA for demonstration. It’s not Gillespie Waste Service’s official website unless they choose to use it.</p>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <strong>Gillespie Waste Service</strong>
+          <p>Weekly residential &amp; commercial garbage pickup for Fredericksburg and most of Gillespie County, Texas.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Pages</h4>
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Reach us</h4>
+          <a href="tel:+18304565401">(830) 456-5401</a>
+          <a href="mailto:Gillespiewaste@gmail.com">Gillespiewaste@gmail.com</a>
+          <a href="https://www.facebook.com/Gillespiewaste" target="_blank" rel="noopener noreferrer">Facebook</a>
+        </div>
+      </div>
+      <p class="footer-disclaimer">
+        This is a speculative website preview created by Dev Forge ZA for demonstration purposes
+        and is not the business’s official live site unless adopted.
+      </p>
     </div>
   </footer>
-  <div class="sticky-call" aria-label="Quick contact">
-    <a class="call" href="tel:+18304565401">Call / Text</a>
-    <a class="mail" href="mailto:Gillespiewaste@gmail.com">Email</a>
-  </div>
+
+  <script>
+    (function () {
+      var btn = document.querySelector('.nav-toggle');
+      var nav = document.getElementById('site-nav');
+      if (!btn || !nav) return;
+      btn.addEventListener('click', function () {
+        var open = nav.classList.toggle('is-open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+        btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      });
+    })();
+  </script>
 </body>
 </html>

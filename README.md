@@ -1,18 +1,19 @@
-# Gillespie Waste Service — preview (redesign)
+# Gillespie Waste Service — preview site
 
-Premium 3-page GitHub Pages mockup for Gillespie Waste Service.
+Static 3-page GitHub Pages marketing preview for Gillespie Waste Service (Fredericksburg / Gillespie County, TX).
 
 **Live:** https://rudsrudibotha.github.io/gillespie-waste-preview/
 
-## What’s included
-- Full-bleed photo hero + section imagery (`images/`)
-- Home / Services / Contact
-- Big call/text CTAs, email, Facebook, owner Kyle Koch
-- No package pricing; no street address on the public pages
-- Speculative Dev Forge ZA disclaimer
+## Pages
+- `index.html` — home, service area, CTAs
+- `services.html` — weekly residential & commercial pickup
+- `contact.html` — phone, email, Facebook
 
-## Before paid handoff
-- Confirm Service vs Services naming
-- Confirm whether to publish a street address
-- Confirm hours
-- Replace stock photos with client truck/route photos when available
+## Facts on site
+- Owner: Kyle Koch
+- Phone: (830) 456-5401
+- Email: Gillespiewaste@gmail.com
+- Facebook: https://www.facebook.com/Gillespiewaste/
+- Weekly residential & commercial garbage pickup
+- No package pricing on the site
+- Speculative Dev Forge ZA disclaimer in the footer

@@ -1,0 +1,45 @@
+Gillespie Waste Service preview — image sources
+Downloaded / committed 2026-09-17 for Dev Forge ZA speculative GitHub Pages preview.
+All images below are rights-safe stock (Unsplash / Pexels / Pixabay license terms apply).
+Do not use client Facebook photos without permission.
+
+hero.jpg
+  Subject: Residential street with wheeled trash bins at the curb (weekly pickup feel).
+  Source: Stock photography previously curated for this preview (Unsplash/Pexels-class
+  residential waste imagery). License: free for commercial use under Unsplash/Pexels terms.
+  Replace with Gillespie Waste Service route photos when available.
+
+truck.jpg
+  Subject: Clean white residential garbage truck on a neighborhood street.
+  Source: Stock photography previously curated for this preview (Unsplash/Pexels-class).
+  License: free for commercial use under Unsplash/Pexels terms.
+  Replace with the business’s own truck photos when available.
+
+bins.jpg
+  Subject: Forest-green and charcoal wheeled commercial/residential bins in a row.
+  Source: Stock photography previously curated for this preview.
+  License: free for commercial use under Unsplash/Pexels terms.
+
+neighborhood.jpg
+  Subject: Neighborhood curb / residential context for service-area storytelling.
+  Source: Stock photography previously curated for this preview.
+  License: free for commercial use under Unsplash/Pexels terms.
+
+hill-country.jpg
+  Subject: Texas Hill Country oaks and valley overlook (local place feel).
+  Source: Pixabay — “Texas Hill Country” (photo ID 1039318)
+  URL: https://pixabay.com/photos/texas-hill-country-1039318/
+  CDN: https://cdn.pixabay.com/photo/2015/11/11/21/52/texas-hill-country-1039318_1280.jpg
+  License: Pixabay Content License (free for commercial use; no attribution required,
+  attribution retained here for transparency).
+
+wheelie-bins.jpg
+  Subject: Colored residential wheelie bins against a wooden fence.
+  Source: Pixabay — “wheelie bin” (photo ID 2270582)
+  URL: https://pixabay.com/photos/wheelie-bin-2270582/
+  CDN: https://cdn.pixabay.com/photo/2017/04/29/11/52/wheelie-bin-2270582_1280.jpg
+  License: Pixabay Content License (free for commercial use).
+
+Notes
+- Prefer client-supplied truck / route / container photos for any official launch.
+- Facebook page assets were NOT scraped for this preview.
